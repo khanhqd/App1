@@ -31,8 +31,9 @@ export default class Drawer extends Component {
           <TouchableOpacity style={styles.dauMuc1} onPress={this._collapseChange}>
             <Text style={styles.textDauMuc}>TRANG ĐIỂM</Text>
           </TouchableOpacity>
+          //Collapsible đang lỗi
           <Collapsible collapsed={this.state.collapsed} collapsedHeight={50} align="top" >
-            <Text style={{color:'black'}}> Black </Text>
+            <Text style={{color:'black'}}> Green - test github </Text>
           </Collapsible>
 
           <TouchableOpacity style={styles.dauMuc}>
